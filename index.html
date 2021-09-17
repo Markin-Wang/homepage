@@ -69,11 +69,11 @@
   <tbody><tr><td><sectionheading>&nbsp;&nbsp;Publications</sectionheading></td></tr></tbody>
 </table>
 
-<!-- xiao2021early -->
+<!-- ICIP2021_MGANet -->
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15"><tbody>
 <tr>
     <td width="33%" valign="center" align="center">
-        <img src="images/ICIP_MGANet.png" style="display: inline" width="100%">
+        <img src="images/ICIP2021_MGANet.png" style="display: inline" width="100%">
     </td>
 
     <td width="67%" valign="top">
@@ -82,105 +82,54 @@
                 <heading>Mask Guided Attention For Fine-Grained Patchy Image Classification</heading>
             </a><br>
             <b>Jun Wang</b>, Xiaohan Yu, Yongsheng Gao
-          <br>  IEEE International Conference on Image Processing (ICIP), 2021 <br>
+          <br>  IEEE International Conference on Image Processing (<b>ICIP</b>), 2021 <br>
             *: equal contribution<br>
         </p>
     </td>
 
 </tr>
 </tbody></table>
-
-<!-- xiao2021region -->
+  
+  
+<!-- PGTRNet -->
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15"><tbody>
-<tr onmouseout="resim_stop()" onmouseover="resim_start()">
+<tr>
     <td width="33%" valign="center" align="center">
-        <div class="image_mouseout">
-            <div class="image_mouseover" id="resim_image" style="opacity: 0;">
-                <img src="images/resim_after.png" ,="" width="100%">
-            </div>
-            <div class="image_constant" id="resim_constant" style="opacity: 1;">
-                <img src="images/resim_before.png" ,="" width="100%">
-            </div>
-        </div>
-        <script type="text/javascript">
-            function resim_start() {
-                document.getElementById('resim_constant').style.opacity = "0";
-                document.getElementById('resim_image').style.opacity = "1";
-            }
-
-            function resim_stop() {
-                document.getElementById('resim_image').style.opacity = "0";
-                document.getElementById('resim_constant').style.opacity = "1";
-            }
-            resim_stop()
-        </script>
+        <img src="images/PGTRNet.png" style="display: inline" width="100%">
     </td>
 
     <td width="67%" valign="top">
         <p>
-            <a href="https://arxiv.org/abs/2103.12902" id="xiao2021region">
-                <heading>Region Similarity Representation Learning</heading>
+            <a href="https://arxiv.org/abs/2108.11439" id="FFVT">
+                <heading>PGTRNet: Two-phase Weakly Supervised Object Detection with Pseudo Ground Truth Refining</heading>
             </a><br>
-            <b>Tete Xiao*</b>, 
-            <a href='http://people.eecs.berkeley.edu/~cjrd/'>Colorado Reed*</a>, 
-            <a href='https://xiaolonw.github.io/'>Xiaolong Wang</a>, 
-            <a href='https://people.eecs.berkeley.edu/~keutzer/'>Kurt Keutzer</a>, 
-            <a href='https://people.eecs.berkeley.edu/~trevor/'>Trevor Darrell</a><br> 
-            International Conference on Computer Vision (<b>ICCV</b>), 2021<br>
+            <b>Jun Wang</b>, Hefeng Zhou, Xiaohan Yu
+          <br> arxiv <br>
             *: equal contribution<br>
-          | <a href="https://arxiv.org/abs/2103.12902">arXiv</a> |
-            <a href="https://github.com/Tete-Xiao/ReSim">code</a> |
-        </p>
-        <p>
-            An approach to self-supervised representation learning for localization-based tasks such as object detection and segmentation.
+          | <a href="https://arxiv.org/abs/2108.11439">arXiv</a> |
         </p>
     </td>
 
 </tr>
 </tbody></table>
 
-<!-- xiao2020should -->
-<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15"><tbody>
-<tr onmouseout="ssl_stop()" onmouseover="ssl_start()">
-    
-    <td width="33%" valign="center" align="center">
-        <div id="ssl_input" class="hidden" style="display: inline;">
-            <img src="images/ssl_before.png" width="100%">
-        </div>
-        <div id="ssl_animate" style="display: none;">
-            <a href="images/ssl_after.gif">
-                <img src="images/ssl_after.gif" width="100%">
-            </a>
-        </div>
-        <script charset="utf-8" type="text/javascript">
-            function ssl_start() {
-                document.getElementById("ssl_animate").style.display = "inline";
-                document.getElementById("ssl_input").style.display = "none";
-            }
 
-            function ssl_stop() {
-                document.getElementById("ssl_animate").style.display = "none";
-                document.getElementById("ssl_input").style.display = "inline";
-            }
-            ssl_stop() 
-        </script>
+<!-- FFVT -->
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="15"><tbody>
+<tr>
+    <td width="33%" valign="center" align="center">
+        <img src="images/FFVT_architecture.png" style="display: inline" width="100%">
     </td>
 
     <td width="67%" valign="top">
         <p>
-            <a href="https://arxiv.org/abs/2008.05659" id="xiao2020should">
-                <heading>What Should Not Be Contrastive in Contrastive Learning</heading>
+            <a href="https://arxiv.org/abs/2107.02341" id="FFVT">
+                <heading>Feature Fusion Vision Transformer for Fine-Grained Visual Categorization</heading>
             </a><br>
-            <b>Tete Xiao</b>, 
-            <a href='https://xiaolonw.github.io/'>Xiaolong Wang</a>, 
-            <a href='http://people.eecs.berkeley.edu/~efros/'>Alexei A. Efros</a>, 
-            <a href='https://people.eecs.berkeley.edu/~trevor/'>Trevor Darrell</a><br> 
-            International Conference on Learning Representations (<b>ICLR</b>), 2021<br>
-          | <a href="https://arxiv.org/abs/2008.05659">arXiv</a> |
-            <a href="https://www.youtube.com/watch?v=RajmUQKLG2U">video</a> |
-        </p>
-        <p>
-            To contrast, or not to contrast, that is the question.
+            <b>Jun Wang</b>, Xiaohan Yu, Yongsheng Gao
+          <br> arxiv <br>
+            *: equal contribution<br>
+          | <a href="https://arxiv.org/abs/2107.02341">arXiv</a> |
         </p>
     </td>
 
@@ -649,9 +598,9 @@
 <table width="100%" align="center" border="0" cellspacing="0" cellpadding="10"><tbody>
   <tbody><tr><td><sectionheading>&nbsp;&nbsp;Service</sectionheading>
   <tr>
-    <td width="15%" valign="center" align="center"><img style="display: inline" width="100%" src="images/pku_seal.png"></td>
+    <td width="15%" valign="center" align="center"><img style="display: inline" width="100%" src="images/kcl_seal.jpg"></td>
     <td width="85%" valign="center">
-      Teaching Faculty, Practice in Programming (17-18 spring)
+      Teaching Assistance, Computer Vision (20-21), King's College London
       <br><br>
       Teaching Faculty, Artificial Intelligence and Computer Vision (18-19 spring)</a>
     </td>
